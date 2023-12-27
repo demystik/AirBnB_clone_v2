@@ -11,6 +11,7 @@ def Hello_hbnb():
     http client"""
     return "Hello HBNB!"
 
+
 @hbnb_route.route('/hbnb', strict_slashes=False)
 def hbnb():
     """This return "HBNB" to http client
